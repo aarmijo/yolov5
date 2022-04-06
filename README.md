@@ -119,8 +119,12 @@ python detect.py --source 0  # webcam
                           path/*.jpg  # glob
                           'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                           'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-```
 
+python3 detect.py --source 'rtsp://192.168.1.XXX' --mqtt-address '192.168.1.XXX' --mqtt-username 'user' --mqtt-password 'password'   
+
+python3 detect.py --source 'rtsp://192.168.1.XXX'
+   
+```
 </details>
 
 <details>
